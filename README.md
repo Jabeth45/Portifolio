@@ -1,6 +1,6 @@
-# yabets-melese
+# Yabets-Melese
 
-Personal portfolio. React + Vite, dark only, purple accent `#8B5CF6`. No backend, no tracking.
+Personal portfolio site. React + Vite.
 
 ## Run it
 ```bash
