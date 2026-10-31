@@ -17,11 +17,9 @@ export const profile = {
     alt: "Portrait of Yabets Melese",
   },
 
-  // CV button stays hidden while this is null.
-  // To turn it on: copy your PDF into /public, then use:
-  // cv: { file: "/Yabets-Melese-CV.pdf", downloadName: "Yabets-Melese-CV.pdf" },
-  // Note: the CV lists a phone number, so publish a copy without it.
-  cv: null,
+  // CV button shows in the hero and in Contact. Set to null to hide it.
+  // The file lives in /public. Note: this CV lists a phone number; swap in a copy without it if you prefer.
+  cv: { file: "/Yabets-Melese-CV.pdf", downloadName: "Yabets-Melese-CV.pdf" },
 
   links: {
     github: "https://github.com/Jabeth45",
@@ -40,4 +38,4 @@ export const profile = {
 
   // Shown in the footer.
   location: "Addis Ababa, Ethiopia",
-};
+}
