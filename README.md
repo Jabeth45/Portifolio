@@ -71,9 +71,3 @@ Then on Vercel: Add New Project, import the repo, framework Vite (build `npm run
 - Static site: no login, no forms, no secrets.
 - `vercel.json` sets a strict Content Security Policy and other headers. Do not add inline `<script>` or `style=""`; add files instead. If you add a third-party service, add its domain to the policy on purpose.
 - Dependency versions are exact. Run `npm audit` before each deploy.
-
-## Still to do
-- [ ] Add your CV (see above)
-- [ ] Swap in a higher-resolution photo
-- [ ] Make each repo public, then flip its `isPublic`
-- [ ] Push to GitHub and import into Vercel
